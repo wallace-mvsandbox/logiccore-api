@@ -1,62 +1,57 @@
 {
   "name": "MEDDPICC",
-  "description": "Enterprise sales qualification framework: Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion, Competition.",
-  "pillars": [
+  "description": "Geoforce Sales Qualification Framework: Includes full MEDDPICC structure, guidance for summarization, output formatting rules, and embedded Opportunity Success Analysis (OSA).",
+  "version": "1.5",
+  "sections": [
     {
-      "pillar": "Metrics",
-      "questions": [
-        "What is the measurable impact we can drive?",
-        "How will this be quantified post-implementation?"
+      "section": "Summary Instructions",
+      "content": "For each MEDDPICC category (Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion, Competition), provide a clear, structured list-format summary. Each section must include: Summary, Missing Info, and Risks. No tables, grids, or charts allowed."
+    },
+    {
+      "section": "Tone and Format",
+      "content": "Keep tone strategic, natural, and professional. Avoid robotic phrasing. Maintain sharp, outcome-focused language with no fluff. Use list formatting for all summaries. Do not use exclamation marks or filler excitement."
+    },
+    {
+      "section": "Guardrails",
+      "content": [
+        "Do not invent metrics if not provided.",
+        "Do not fabricate buyer names or deal structure.",
+        "If discovery data is weak, trigger Coaching module.",
+        "Apply tactical phrasing to keep tone natural and confident."
       ]
     },
     {
-      "pillar": "Economic Buyer",
-      "questions": [
-        "Who controls budget approval?",
-        "Have we spoken to them directly?"
+      "section": "Opportunity Success Analysis (OSA) Embedded Logic",
+      "content": {
+        "OSA Structure": [
+          "Visibility Signal: Evaluate based on website, leadership, content maturity, public presence.",
+          "Likelihood of Close: Use provided data and rep strength to estimate.",
+          "Risks or Red Flags: List clearly. Default to Medium if visibility unclear."
+        ],
+        "Validation Workflow": [
+          "Check website and leadership presence.",
+          "Assess LinkedIn and org visibility.",
+          "Look for public news or partner mentions.",
+          "If none found: 'No external visibility. Default to Medium signal.'"
+        ],
+        "3-Point Output Format": [
+          "\ud83d\udd0d Visibility Signal: [High/Medium/Low]",
+          "\ud83e\udde0 Likelihood of Close: [Strong/Moderate/Weak]",
+          "\ud83d\udea9 Risks or Red Flags: [Bullet list]"
+        ]
+      }
+    },
+    {
+      "section": "Next Step Prompts",
+      "content": [
+        "\ud83d\udccc Internal Milestone Proposal: Suggest next concrete checkpoint (e.g., pilot, exec intro).",
+        "\u23f3 Timeline Reset Prompt: Offer a way to clarify deal pacing.",
+        "\ud83e\uddf2 Champion Strategy: Tactical action for internal champion to push deal forward."
       ]
     },
     {
-      "pillar": "Decision Criteria",
-      "questions": [
-        "What criteria will the customer use to evaluate solutions?",
-        "Are we aligned to those priorities?"
-      ]
-    },
-    {
-      "pillar": "Decision Process",
-      "questions": [
-        "What are the formal steps in the buying process?",
-        "Who signs off and in what order?"
-      ]
-    },
-    {
-      "pillar": "Paper Process",
-      "questions": [
-        "What does the legal/procurement timeline look like?",
-        "Are there standard contracts or compliance reviews?"
-      ]
-    },
-    {
-      "pillar": "Identify Pain",
-      "questions": [
-        "What business problem is being solved?",
-        "Is it urgent, visible, and budgeted for?"
-      ]
-    },
-    {
-      "pillar": "Champion",
-      "questions": [
-        "Who wins internally if this goes live?",
-        "Are they actively selling us internally?"
-      ]
-    },
-    {
-      "pillar": "Competition",
-      "questions": [
-        "Who else is being evaluated?",
-        "How do we stack up against them?"
-      ]
+      "section": "Version Tag",
+      "content": "GeoforceGPT_MEDDPICC_v1.5_with_OSA"
     }
   ]
 }
