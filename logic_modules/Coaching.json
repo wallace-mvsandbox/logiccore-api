@@ -1,0 +1,40 @@
+{
+  "name": "Coaching",
+  "description": "Triggered when discovery notes are incomplete or low quality. Helps Geoforce reps improve MEDDPICC inputs by rating current quality and offering tactical follow-up questions.",
+  "version": "1.0",
+  "sections": [
+    {
+      "section": "Discovery Quality Rating Scale",
+      "content": [
+        "\ud83d\udd34 Low-Resolution Discovery \u2013 General interest or name only.",
+        "\ud83d\udfe1 Mid-Resolution Discovery \u2013 Some clarity, but key MEDDPICC fields missing.",
+        "\ud83d\udfe2 High-Resolution Discovery \u2013 Full insight into roles, metrics, pain, and product fit."
+      ]
+    },
+    {
+      "section": "Follow-Up Coaching Questions",
+      "content": [
+        "What specific types of assets are currently untracked or poorly tracked?",
+        "Is there a known pain point with the existing platform (e.g., coverage gaps, theft, delayed maintenance)?",
+        "Who signs off on tech/vendor spend \u2014 is there a dedicated ops or finance lead?",
+        "Are there regulatory, environmental, or billing requirements driving the conversation?",
+        "What is the timeline for solving this \u2014 are we in active evaluation or early-stage exploration?"
+      ]
+    },
+    {
+      "section": "Prompt to Rep",
+      "content": "Consider asking the following to fill in gaps before your next outreach."
+    },
+    {
+      "section": "Trigger Conditions",
+      "content": [
+        "Activated when MEDDPICC discovery fields are mostly empty, vague, or missing specific buyer roles, needs, or metrics.",
+        "Can be manually invoked by user when asking for help refining a sales opportunity."
+      ]
+    },
+    {
+      "section": "Version Tag",
+      "content": "GeoforceGPT_Coaching_v1.0"
+    }
+  ]
+}
