@@ -1,0 +1,62 @@
+{
+  "name": "MEDDPICC",
+  "description": "Enterprise sales qualification framework: Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion, Competition.",
+  "pillars": [
+    {
+      "pillar": "Metrics",
+      "questions": [
+        "What is the measurable impact we can drive?",
+        "How will this be quantified post-implementation?"
+      ]
+    },
+    {
+      "pillar": "Economic Buyer",
+      "questions": [
+        "Who controls budget approval?",
+        "Have we spoken to them directly?"
+      ]
+    },
+    {
+      "pillar": "Decision Criteria",
+      "questions": [
+        "What criteria will the customer use to evaluate solutions?",
+        "Are we aligned to those priorities?"
+      ]
+    },
+    {
+      "pillar": "Decision Process",
+      "questions": [
+        "What are the formal steps in the buying process?",
+        "Who signs off and in what order?"
+      ]
+    },
+    {
+      "pillar": "Paper Process",
+      "questions": [
+        "What does the legal/procurement timeline look like?",
+        "Are there standard contracts or compliance reviews?"
+      ]
+    },
+    {
+      "pillar": "Identify Pain",
+      "questions": [
+        "What business problem is being solved?",
+        "Is it urgent, visible, and budgeted for?"
+      ]
+    },
+    {
+      "pillar": "Champion",
+      "questions": [
+        "Who wins internally if this goes live?",
+        "Are they actively selling us internally?"
+      ]
+    },
+    {
+      "pillar": "Competition",
+      "questions": [
+        "Who else is being evaluated?",
+        "How do we stack up against them?"
+      ]
+    }
+  ]
+}
